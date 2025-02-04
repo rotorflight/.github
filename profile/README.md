@@ -9,7 +9,7 @@ single-rotor helicopters. It consists of:
 - Rotorflight Flight Controller Firmware
 - Rotorflight Configurator, for flashing and configuring the flight controller
 - Rotorflight Blackbox Explorer, for analyzing blackbox flight logs
-- Rotorflight LUA Scripts, for configuring the flight controller using a transmitter
+- Rotorflight Lua Scripts, for configuring the flight controller using a transmitter
 
 Built on Betaflight 4.3, Rotorflight incorporates numerous advanced features specifically
 tailored for helicopters. It's important to note that Rotorflight does _not_ support multi-rotor
@@ -22,8 +22,8 @@ Please download the latest version from here:
 
 - [Rotorflight Configurator](https://github.com/rotorflight/rotorflight-configurator/releases/)
 - [Rotorflight Blackbox](https://github.com/rotorflight/rotorflight-blackbox/releases/)
-- [LUA Scripts for EdgeTx and OpenTx](https://github.com/rotorflight/rotorflight-lua-scripts/releases/)
-- [LUA Scripts for FrSky Ethos](https://github.com/rotorflight/rotorflight-lua-ethos/releases/)
+- [Lua Scripts for EdgeTx and OpenTx](https://github.com/rotorflight/rotorflight-lua-scripts/releases/)
+- [Lua Scripts for FrSky Ethos](https://github.com/rotorflight/rotorflight-lua-ethos/releases/)
 
 
 ## Installation
@@ -37,14 +37,14 @@ Rotorflight has many features:
 
 * Many receiver protocols: CRSF, S.BUS, F.Port, DSM, IBUS, XBUS, EXBUS, GHOST, CPPM
 * Support for various telemetry protocols: CSRF, S.Port, HoTT, etc.
-* ESC telemetry protocols: BLHeli32, Hobbywing, Scorpion, Kontronik, OMP Hobby, ZTW, APD, YGE
+* ESC telemetry protocols: BLHeli32 (KISS), Hobbywing, Scorpion, Kontronik, OMP Hobby, ZTW, APD, YGE
 * Advanced PID control tuned for helicopters
 * Stabilisation modes (6D)
 * Rotor speed governor
 * Motorised tail support with Tail Torque Assist (TTA, also known as TALY)
 * Remote configuration and tuning with the transmitter
   - With knobs / switches assigned to functions
-  - With LUA scripts on EdgeTX, OpenTX and Ethos
+  - With Lua scripts on EdgeTX, OpenTX and Ethos
 * Extra servo/motor outputs for AUX functions
 * Fully customisable servo/motor mixer
 * Sensors for battery voltage, current, BEC, etc.
